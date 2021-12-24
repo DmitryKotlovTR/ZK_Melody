@@ -7,7 +7,7 @@ $(document).ready(function() {
   const counterDown = $('.counter-down');
   const modal = $('.modal');
   const modalCloseButton = $('.modal-close-button');
-  const viewFlatsButton = $('.view-flats');
+  const viewFlatsButton = $('.viev-flats');
   const flatsPath = $('.modal-image path');
   const flatsLink = $('.flat-link');
   const menuButton = $('.menu-button');

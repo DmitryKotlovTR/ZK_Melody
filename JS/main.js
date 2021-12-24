@@ -7,7 +7,7 @@ $(document).ready(function() {
   const counterDown = $('.counter-down');
   const modal = $('.modal');
   const modalCloseButton = $('.modal-close-button');
-  const viewFlats = $('.view-flats');
+  const viewFlatsButton = $('.view-flats');
   const flatsPath = $('.modal-image path');
   const flatsLink = $('.flat-link');
   const menuButton = $('.menu-button');
@@ -29,8 +29,8 @@ $(document).ready(function() {
 
   floorPath.on('click', toggleModal);
   modalCloseButton.on('click', toggleModal);
-  viewFlats.on('click', toggleModal);
-
+  viewFlatsButton.on('click', toggleModal);
+  
   function usCounterFloor(floor) {
     return floor.toLocaleString('en-US', {
       minimumIntegerDigits: 2,
